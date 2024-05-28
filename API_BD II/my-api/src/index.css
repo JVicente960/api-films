@@ -1,0 +1,144 @@
+/* AddFilmForm.css */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.form-container label {
+  margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+.form-container button[type="submit"] {
+  background-color: #28a745;
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* MyComponent.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.films-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.film-item {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.film-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.film-description {
+  font-size: 16px;
+  color: #090909;
+}
+
+.film-link {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.film-link:hover {
+  text-decoration: underline;
+}
+
+.add-film-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-film-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px 0; /* Add some margin for spacing between buttons */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+.btn-success {
+  font-size: larger;
+  background-color: #09bf46;
+  color: #0f0e0e;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
